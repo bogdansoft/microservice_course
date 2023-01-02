@@ -14,11 +14,11 @@ public class UserService {
 
     private static List<User> users = new ArrayList<>();
 
-    static {
+    /*static {
         users.add(new User(1, "Adam", LocalDate.now().minusYears(30)));
         users.add(new User(2, "John", LocalDate.now().minusYears(33)));
         users.add(new User(3, "Bill", LocalDate.now().minusYears(40)));
-    }
+    }*/
 
     public List<User> findAll() {
         return users;
